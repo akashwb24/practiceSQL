@@ -7,6 +7,7 @@ quaterly money,
 monthly money
 )
 
+  
 insert into vendors(vendorid,vendorname,yearly,halfyearly,quaterly,monthly)
 values(1,'xyz company',20000,null,null,null),
 (2,'abc express',null,10000,null,null),
@@ -23,4 +24,5 @@ select vendorid, vendorname, coalesce(yearly, halfyearly, quaterly, monthly)
 from vendors
 
 select vendorid, vendorname, coalesce(yearly, halfyearly*2, quaterly*4, monthly*12)
+
 from vendors
