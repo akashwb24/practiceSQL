@@ -13,3 +13,5 @@ when ListPrice >= 2000 then 'Avg'
 else 'Low'
 end as Category
 from DimProduct
+
+'''''''''''''''
