@@ -21,6 +21,7 @@ select datename(mm, getdate())
 select datename(weekday, getdate())
 
 select format (getdate(), 'yy')
+  
 
 select format (getdate(), 'yyyy')
 
@@ -33,5 +34,6 @@ select format(getdate(), 'dd')
 select format(getdate(), 'ddd')
 
 select format(getdate(),'dd-MM-yyyy hh:mm:ss')
+
 
 select format(getdate(), 'dd-MM-yyyy HH:mm:ss')
