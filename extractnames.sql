@@ -10,8 +10,10 @@ from empDE
 select trim(left(FullName, charindex(' ', FullName))) FirstName
 from empDE
 
+  
 select FullName,
 right(FullName,len(FullName)-charindex(' ',FullName,charindex(' ',FullName)+1)) LastName
 from empDE
+
 
 
