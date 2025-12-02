@@ -5,6 +5,7 @@ add email varchar(30)
 
 alter table employees
 add mobile varchar(10), phone varchar(10)
+  
 
 alter table employees
 drop column phone
@@ -15,5 +16,6 @@ drop column phone, mobile
 alter table employees
 
 alter column email varchar(50)
+
 
 
