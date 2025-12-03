@@ -10,6 +10,7 @@ select Birthdate, day(Birthdate) from DimEmployee
 
 select datepart(year, getdate())
 
+  
 select datepart(MONTH, getdate())
 
 select datepart(weekday, getdate())
@@ -37,3 +38,4 @@ select format(getdate(),'dd-MM-yyyy hh:mm:ss')
 
 
 select format(getdate(), 'dd-MM-yyyy HH:mm:ss')
+
