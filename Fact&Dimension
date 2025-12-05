@@ -1,4 +1,5 @@
-fact tables and dimensions tables are core concepts in data warehousing and are foundational to star and snowflake schema designs, fact tables store measurements while dimensions table provide descriptive context for interpreting those facts.
+fact tables and dimensions tables are core concepts in data warehousing and are foundational to star and snowflake schema designs, 
+fact tables store measurements while dimensions table provide descriptive context for interpreting those facts.
 a fact is a numerical measurement of a business event while a dimension provides descriptive context for that fact table.
 they are typically stored in separate tables, with facts in a central fact table and dimension in surrounding dimension tables forming a star schema.
 there are two types of model to design data models namely star and snowflake.
