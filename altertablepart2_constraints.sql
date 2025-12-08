@@ -3,7 +3,6 @@ empid int,
 empname varchar(50)
 )
 
-  
 alter table empnew
 alter column empid int not null
 
@@ -19,3 +18,4 @@ alter table salaries
 add constraint fk_new foreign key(empid)
 
 references empnew(empid)
+
