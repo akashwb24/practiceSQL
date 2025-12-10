@@ -5,6 +5,7 @@ select F.* from FactInternetSales F join DimProduct D
 on F.ProductKey = D.ProductKey
 where Color='Red'
 
+
   
 select * from FactInternetSales
 where ProductKey in
@@ -14,6 +15,7 @@ where ProductKey in
 select * from FactInternetSales
 where ProductKey not in 
 ( select ProductKey from DimProduct where Color='Red')
+
 
 
 
