@@ -31,6 +31,3 @@ select vendorid, vendorname, coalesce(yearly, halfyearly*2, quaterly*4, monthly*
 
   
 from vendors
-
-
-
