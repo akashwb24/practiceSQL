@@ -15,7 +15,3 @@ drop column phone, mobile
 alter table employees
 
 alter column email varchar(50)
-
-
-
-
