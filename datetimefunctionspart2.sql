@@ -38,4 +38,3 @@ select format(getdate(),'dd-MM-yyyy hh:mm:ss')
 
 
 select format(getdate(), 'dd-MM-yyyy HH:mm:ss')
-
