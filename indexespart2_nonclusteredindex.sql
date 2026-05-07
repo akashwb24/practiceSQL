@@ -28,4 +28,5 @@ create nonclustered index nci_empname2
 on emp4(empname)
 include(dept,city)
 
+  
 create unique nonclustered index nci_email on emp4(email)
