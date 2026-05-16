@@ -19,6 +19,10 @@ select 1 as empid, 'Raj' as empname for json path
 select 1 as empid, 'Raj' as empname for json auto
 --auto requires a table for it to give json format
 
+
+
+
+  
 select * from empnewj for json auto
 
 
