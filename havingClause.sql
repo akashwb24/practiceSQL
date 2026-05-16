@@ -12,3 +12,6 @@ from factinternetsales
 where year(orderdate) = 2012
 group by productkey
 having sum(salesamount) >=100000
+
+
+
