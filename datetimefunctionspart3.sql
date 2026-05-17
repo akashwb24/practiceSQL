@@ -20,3 +20,8 @@ select eomonth(getdate(), 0)
 select eomonth(getdate(), 1)
 
 select eomonth(getdate(), -1)
+
+
+
+
+
