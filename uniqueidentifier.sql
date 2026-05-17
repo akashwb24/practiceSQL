@@ -19,3 +19,7 @@ insert into emptbl(empname) values ('bikash')
 insert into emptbl(empname) values('tinku')
 
 select * from emptbl
+
+
+
+
