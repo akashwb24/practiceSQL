@@ -19,3 +19,5 @@ values (2,'raka','2022-12-31',10000)
 
 insert into employees6(employeeid, employeename, doj, salary)
 values (3,'amma','2022-12-31',12000)
+
+
