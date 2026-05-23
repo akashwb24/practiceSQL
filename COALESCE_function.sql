@@ -6,10 +6,7 @@ halfyearly money,
 quaterly money,
 monthly money
 )
-
-
-
-  
+ 
 insert into vendors(vendorid,vendorname,yearly,halfyearly,quaterly,monthly)
 values(1,'xyz company',20000,null,null,null),
 (2,'abc express',null,10000,null,null),
