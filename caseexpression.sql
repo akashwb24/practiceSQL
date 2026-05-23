@@ -15,8 +15,3 @@ end as Category
 from DimProduct
 
 '''''''''''''''
-
-
-
-
-
