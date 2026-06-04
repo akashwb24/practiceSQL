@@ -16,3 +16,6 @@ alter table employees
 
 alter column email varchar(50)
 
+
+
+
