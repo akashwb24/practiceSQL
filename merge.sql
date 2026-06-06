@@ -30,3 +30,7 @@ when matched then
 update set T.city=S.city,T.department=S.department,T.salary=S.salary
 when not matched by source then
 delete;
+
+
+
+
