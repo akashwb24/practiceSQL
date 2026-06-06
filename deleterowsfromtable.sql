@@ -23,3 +23,5 @@ truncate table employees8
 
 delete from dimprobkup 
 where standardcost>=500 and Color='Red'
+
+
