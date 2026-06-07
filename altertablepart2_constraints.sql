@@ -18,3 +18,7 @@ alter table salaries
 add constraint fk_new foreign key(empid)
 
 references empnew(empid)
+
+
+
+
