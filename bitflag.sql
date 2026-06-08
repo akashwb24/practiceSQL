@@ -6,3 +6,8 @@ insert into empbit(empid, empname, isactive) values (3,'sunil','True')
 insert into empbit(empid, empname, isactive) values (4,'amol','False')
 
 select * from empbit
+
+
+
+
+
