@@ -37,8 +37,3 @@ from vendors
 
 
 
-
-
-
-
-
